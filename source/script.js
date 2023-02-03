@@ -1,0 +1,1 @@
+function Redirect() {window.open('https://www.github.com/LESS15/site', 'GITHUB');}

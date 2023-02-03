@@ -1,0 +1,49 @@
+html,
+body {
+    min-height: 100%;
+}
+
+body {
+    height: 100%;
+    width: 100%;
+    overflow: hidden;
+}
+
+.container h2 {
+    color: #fff;
+    text-align: center;
+    font-size: 25px;
+}
+
+.container a {
+    color: #aaa;
+    text-align: center;
+    display: inline-block;
+    cursor: pointer;
+    text-decoration: none;
+}
+
+.container a:hover {
+    color: #aaa;
+    text-decoration: underline;
+}
+
+footer {
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    color: white;
+    text-align: center;
+    font-size: 25px;
+}
+
+#git {
+    font-size: 35px;
+    cursor: pointer;
+}
+
+#git:hover {
+    transform: scale(1.1);
+    transition: all 300ms ease-in-out;
+}

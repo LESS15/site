@@ -24,15 +24,23 @@ Fiz este site em pouco tempo só por brincadeira e passa-tempo mesmo, mas també
     <link rel="stylesheet" href="./source/style.css">
     <title>Site</title>
 </head>
-<body style="background:#000;">
+<body style="background:#151515;">
     <div class="container">
-        <h2>There's nothing to see here.</h2>
+        <h2>Um site qualquer &macr;&bsol;&lowbar;&lpar;&#x30c4;&rpar;&lowbar;&sol;&macr;</h2>
         <hr>
-        <h2>See the <a href="https://github.com/LESS15/site">source</a> clicking in the <a>github icon</a> on the <a title="click here and be redirect to the footer." id="footer-marker">footer</a>.</h2>
+        <h2>Veja o <a href="https://github.com/LESS15/site" aria-label="source">código fonte</a> clicando no ícone do <a href="#git" aria-label="Github">GitHub</a> no <a title="click here and be redirect to the footer." id="footer-marker" aria-label="Rodapé" href="#footer">Rodapé</a>.</h2>
     </div>
 
     <footer id="footer">
-        <a href="https://www.github.com/LESS15" style="text-decoration:none;color:#fff;"><i class="fa fa-github" id="git" title="Github"></i></a>
+        <a href="https://www.github.com/LESS15" style="text-decoration:none;color:#fff;"><i class="fa fa-github" id="git" title="GitHub"></i></a>
     </footer>
+
+    <div class="menu">
+        <!--<i class="fa fa-bars" title="MENU"></i>!--->
+        <ul class="menu-items">
+            <li><a onclick="window.open('./redirect/redirect.html/', 'nam')">GitHub</a></li>
+            <li><a onclick="window.open('./redirect/redirect2.html/', 'nam')">Código-fonte</a></li>
+        </ul>
+    </div>
 </body>
 </html>

@@ -106,13 +106,16 @@ footer {
     position: relative;
 }
 
+.menu a {
+    cursor: pointer;
+}
+
 .menu ul li a {
     color: #000;
     text-decoration: none;
     display: inline-block;
     padding: 10px;
     transition: all 1s;
-    cursor: pointer;
 }
 
 .menu ul li a:hover {

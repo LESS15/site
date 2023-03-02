@@ -27,7 +27,6 @@ body {
     color: #aaa;
     text-align: center;
     display: inline-block;
-    cursor: pointer;
     text-decoration: none;
 }
 
@@ -114,6 +113,7 @@ footer {
     display: inline-block;
     padding: 10px;
     transition: all 1s;
+    cursor: pointer;
 }
 
 .menu ul li a:hover {
